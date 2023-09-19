@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ===== Embed Font ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./Assets/CSS/reset.css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link rel="stylesheet" href="./Assets/CSS/responsive.css" />
+    <!-- ===== Favicon ===== -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Assets/Images/Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Assets/Images/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Assets/Images/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./Assets/Images/Favicon/site.webmanifest" />
+    <title>Lesson.</title>
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <!-- === LOGO === -->
+          <div class="logo header__logo">
+            <a href="#" class="logo__text">
+              Lesson<span class="logo__dot">.</span>
+            </a>
+          </div>
+          <!-- === Navbar === -->
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link--active">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Courses</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Pricing</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- === Action === -->
+          <div class="hader__action">
+            <a href="#!" class="btn sign-up__btn"> Sign up </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ========== MAIN ========== -->
+    <main style>
+      <!-- ===== Hero ===== -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__row">
+            <!-- Hero Media -->
+            <div class="hero__media-block">
+              <figure class="hero__picture">
+                <img
+                  src="./Assets/Images/Hero/Hero.jpg"
+                  alt="Learn without limits and spread knowledge."
+                  class="hero__img"
+                />
+                <!-- Hero Card -->
+                <div class="hero-card">
+                  <ul class="hero-card__list">
+                    <li class="hero-card__item">
+                      <figure
+                        class="hero-card__image"
+                        style="background-color: #fff9e8"
+                      >
+                        <img
+                          src="./Assets/Images/Hero/page.svg"
+                          alt=""
+                          class="hero-card__img"
+                        />
+                      </figure>
+                      <div class="hero-card__info">
+                        <p class="desc hero-card__desc">20 Courses</p>
+                        <h3 class="hero-card__title">UI/UX Design</h3>
+                      </div>
+                    </li>
+                    <li class="hero-card__item">
+                      <figure
+                        class="hero-card__image"
+                        style="background-color: #fcefff"
+                      >
+                        <img
+                          src="./Assets/Images/Hero/code.svg"
+                          alt=""
+                          class="hero-card__img"
+                        />
+                      </figure>
+                      <div class="hero-card__info">
+                        <p class="desc hero-card__desc">20 Courses</p>
+                        <h3 class="hero-card__title">Development</h3>
+                      </div>
+                    </li>
+                    <li class="hero-card__item">
+                      <figure
+                        class="hero-card__image"
+                        style="background-color: #ebeaff"
+                      >
+                        <img
+                          src="./Assets/Images/Hero/speaker.svg"
+                          alt=""
+                          class="hero-card__img"
+                        />
+                      </figure>
+                      <div class="hero-card__info">
+                        <p class="desc hero-card__desc">30 Courses</p>
+                        <h3 class="hero-card__title">Marketing</h3>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </figure>
+            </div>
+            <!-- Hero Content -->
+            <section class="hero__content-block">
+              <h1 class="heading hero__heading">
+                Learn without limits and spread knowledge.
+              </h1>
+              <p class="desc hero_desc">
+                Build new skills for that “this is my year” feeling with
+                courses, certificates, and degrees from world-class universities
+                and companies.
+              </p>
+              <div class="hero__cta-group">
+                <a href="#!" class="btn hero__btn">See Courses</a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="hero__play"
+                >
+                  <div class="play__btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0
+                                         17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 
+                                         23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                        fill="#FFB900"
+                      />
+                    </svg>
+                  </div>
+                  <span>Watch Video</span>
+                </a>
+              </div>
+              <div class="hero__interact">
+                <p class="desc hero__interact-desc">Recent engagement</p>
+                <div class="hero__interact-stats">
+                  <span>
+                    <strong>50K</strong>
+                    Students
+                  </span>
+                  <span>
+                    <strong>70+</strong>
+                    Courses
+                  </span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Courses ===== -->
+      <section class="course">
+        <div class="container">
+          <div class="course__row">
+            <section class="cousre__info-block">
+              <h2 class="heading course__heading">Our popular courses</h2>
+              <p class="desc course__desc">
+                Build new skills with new trendy courses and shine for the next
+                future career.
+              </p>
+            </section>
+            <div class="course__control-block">
+              <button class="course__control-btn">
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7 1L1 7L7 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </button>
+              <button class="course__control-btn">
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L1 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <ul class="course__list">
+            <li class="course-item">
+              <figure class="course-item__image">
+                <img
+                  src="./Assets/Images/Course/Web_design.jpg"
+                  alt="Basic web design"
+                  class="course-item__thumb"
+                />
+              </figure>
+              <section class="course-item__info">
+                <div class="course-item__row">
+                  <h2 class="course-item__heading">Basic web design</h2>
+                  <span class="course-item__rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="17"
+                      viewBox="0 0 18 17"
+                      fill="none"
+                    >
+                      <path
+                        d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z"
+                        fill="#FEA31B"
+                      />
+                    </svg>
+                    4.5
+                  </span>
+                </div>
+                <p class="desc course-item__desc">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="course-item__row">
+                  <span class="course-item__price">$120.75</span>
+                  <a href="#!" class="btn course-item__btn">Book Now</a>
+                </div>
+              </section>
+            </li>
+            <li class="course-item">
+              <figure class="course-item__image">
+                <img
+                  src="./Assets/Images/Course/UX-UI_design.jpg"
+                  alt="UI/UX design"
+                  class="course-item__thumb"
+                />
+              </figure>
+              <section class="course-item__info">
+                <div class="course-item__row">
+                  <h2 class="course-item__heading">UI/UX design</h2>
+                  <span class="course-item__rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="17"
+                      viewBox="0 0 18 17"
+                      fill="none"
+                    >
+                      <path
+                        d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z"
+                        fill="#FEA31B"
+                      />
+                    </svg>
+                    5.0
+                  </span>
+                </div>
+                <p class="desc course-item__desc">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="course-item__row">
+                  <span class="course-item__price">$120.75</span>
+                  <a href="#!" class="btn course-item__btn">Book Now</a>
+                </div>
+              </section>
+            </li>
+            <li class="course-item">
+              <figure class="course-item__image">
+                <img
+                  src="./Assets/Images/Course/Web_app_design.jpg"
+                  alt="Web App design"
+                  class="course-item__thumb"
+                />
+              </figure>
+              <section class="course-item__info">
+                <div class="course-item__row">
+                  <h2 class="course-item__heading">Web App design</h2>
+                  <span class="course-item__rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="17"
+                      viewBox="0 0 18 17"
+                      fill="none"
+                    >
+                      <path
+                        d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z"
+                        fill="#FEA31B"
+                      />
+                    </svg>
+                    4.5
+                  </span>
+                </div>
+                <p class="desc course-item__desc">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="course-item__row">
+                  <span class="course-item__price">$120.75</span>
+                  <a href="#!" class="btn course-item__btn">Book Now</a>
+                </div>
+              </section>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- ===== Testimonial ===== -->
+      <div class="testimonial">
+        <div class="container">
+          <ul class="testimonial__list">
+            <!-- Item 1 -->
+            <li class="testimonial__item">
+              <div class="testimonial__info">
+                <img
+                  src="./Assets/Images/Testimonial/Vinh_Ha.jpg"
+                  alt="testimonial__avt"
+                  class="testimonial__avt"
+                />
+                <p class="testimonial__user-name">Vinh Ha</p>
+                <p class="desc testimonial__desc">Student of Web Design</p>
+                <div class="testimonial__dots">
+                  <span class="dot dot--active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <div class="testimonial__content">
+                <span class="testimonial__open-quotes">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="28"
+                    viewBox="0 0 30 28"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.9168 1.23505V6.26199C12.9168 6.94407 12.3663 7.49652 11.6875 7.49652C9.26544 7.49652 7.94779 9.99114 7.76491 14.9155H11.6875C12.3662 14.9155 12.9168 15.4688 12.9168 16.1501V26.7647C12.9168 27.4465 12.3663 27.999 11.6875 27.999H1.22938C0.550795 27.999 1.90735e-06 27.4459 1.90735e-06 26.7647V16.15C1.90735e-06 13.7896 0.237282 11.6235 0.703081 9.71055C1.1816 7.74949 1.91613 6.035 2.8858 4.61422C3.88306 3.15417 5.13161 2.00845 6.59457 1.21054C8.06863 0.407543 9.78211 0 11.688 0C12.3662 0.000516891 12.9168 0.553486 12.9168 1.23505ZM28.771 7.49696C29.4496 7.49696 30 6.94407 30 6.26294V1.23497C30 0.553488 29.4496 0.000951767 28.771 0.000951767C26.866 0.000951767 25.1517 0.408579 23.6785 1.21149C22.2148 2.00931 20.9664 3.15408 19.9693 4.61517C18.999 6.03595 18.2645 7.75052 17.786 9.71254C17.32 11.6255 17.0832 13.7917 17.0832 16.151V26.7657C17.0832 27.4476 17.6341 28 18.3125 28H28.771C29.4496 28 30 27.447 30 26.7657V16.151C30 15.4693 29.4496 14.9165 28.771 14.9165H24.9035C25.0841 9.99165 26.3828 7.49696 28.771 7.49696Z"
+                      fill="#634700"
+                    />
+                  </svg>
+                </span>
+                <blockquote class="testimonial__blockquote">
+                  Not only does my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills I've learned."
+                </blockquote>
+              </div>
+            </li>
+            <!-- Item 2 -->
+            <li class="testimonial__item">
+              <div class="testimonial__info">
+                <img
+                  src="./Assets/Images/Testimonial/Vinh_Ha.jpg"
+                  alt="testimonial__avt"
+                  class="testimonial__avt"
+                />
+                <p class="testimonial__user-name">Vinh Ha</p>
+                <p class="desc testimonial__desc">Student of Web Design</p>
+                <div class="testimonial__dots">
+                  <span class="dot dot--active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <div class="testimonial__content">
+                <span class="testimonial__open-quotes">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="28"
+                    viewBox="0 0 30 28"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.9168 1.23505V6.26199C12.9168 6.94407 12.3663 7.49652 11.6875 7.49652C9.26544 7.49652 7.94779 9.99114 7.76491 14.9155H11.6875C12.3662 14.9155 12.9168 15.4688 12.9168 16.1501V26.7647C12.9168 27.4465 12.3663 27.999 11.6875 27.999H1.22938C0.550795 27.999 1.90735e-06 27.4459 1.90735e-06 26.7647V16.15C1.90735e-06 13.7896 0.237282 11.6235 0.703081 9.71055C1.1816 7.74949 1.91613 6.035 2.8858 4.61422C3.88306 3.15417 5.13161 2.00845 6.59457 1.21054C8.06863 0.407543 9.78211 0 11.688 0C12.3662 0.000516891 12.9168 0.553486 12.9168 1.23505ZM28.771 7.49696C29.4496 7.49696 30 6.94407 30 6.26294V1.23497C30 0.553488 29.4496 0.000951767 28.771 0.000951767C26.866 0.000951767 25.1517 0.408579 23.6785 1.21149C22.2148 2.00931 20.9664 3.15408 19.9693 4.61517C18.999 6.03595 18.2645 7.75052 17.786 9.71254C17.32 11.6255 17.0832 13.7917 17.0832 16.151V26.7657C17.0832 27.4476 17.6341 28 18.3125 28H28.771C29.4496 28 30 27.447 30 26.7657V16.151C30 15.4693 29.4496 14.9165 28.771 14.9165H24.9035C25.0841 9.99165 26.3828 7.49696 28.771 7.49696Z"
+                      fill="#634700"
+                    />
+                  </svg>
+                </span>
+                <blockquote class="testimonial__blockquote">
+                  Not only does my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills I've learned."
+                </blockquote>
+              </div>
+            </li>
+            <!-- Item 3 -->
+            <li class="testimonial__item">
+              <div class="testimonial__info">
+                <img
+                  src="./Assets/Images/Testimonial/Vinh_Ha.jpg"
+                  alt="testimonial__avt"
+                  class="testimonial__avt"
+                />
+                <p class="testimonial__user-name">Vinh Ha</p>
+                <p class="desc testimonial__desc">Student of Web Design</p>
+                <div class="testimonial__dots">
+                  <span class="dot dot--active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <div class="testimonial__content">
+                <span class="testimonial__open-quotes">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="28"
+                    viewBox="0 0 30 28"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.9168 1.23505V6.26199C12.9168 6.94407 12.3663 7.49652 11.6875 7.49652C9.26544 7.49652 7.94779 9.99114 7.76491 14.9155H11.6875C12.3662 14.9155 12.9168 15.4688 12.9168 16.1501V26.7647C12.9168 27.4465 12.3663 27.999 11.6875 27.999H1.22938C0.550795 27.999 1.90735e-06 27.4459 1.90735e-06 26.7647V16.15C1.90735e-06 13.7896 0.237282 11.6235 0.703081 9.71055C1.1816 7.74949 1.91613 6.035 2.8858 4.61422C3.88306 3.15417 5.13161 2.00845 6.59457 1.21054C8.06863 0.407543 9.78211 0 11.688 0C12.3662 0.000516891 12.9168 0.553486 12.9168 1.23505ZM28.771 7.49696C29.4496 7.49696 30 6.94407 30 6.26294V1.23497C30 0.553488 29.4496 0.000951767 28.771 0.000951767C26.866 0.000951767 25.1517 0.408579 23.6785 1.21149C22.2148 2.00931 20.9664 3.15408 19.9693 4.61517C18.999 6.03595 18.2645 7.75052 17.786 9.71254C17.32 11.6255 17.0832 13.7917 17.0832 16.151V26.7657C17.0832 27.4476 17.6341 28 18.3125 28H28.771C29.4496 28 30 27.447 30 26.7657V16.151C30 15.4693 29.4496 14.9165 28.771 14.9165H24.9035C25.0841 9.99165 26.3828 7.49696 28.771 7.49696Z"
+                      fill="#634700"
+                    />
+                  </svg>
+                </span>
+                <blockquote class="testimonial__blockquote">
+                  Not only does my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills I've learned."
+                </blockquote>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ===== Features ===== -->
+      <section class="feature">
+        <div class="container">
+          <div class="feature__row">
+            <div class="feature__media-block">
+              <img
+                src="./Assets/Images/Features/feature-1.jpg"
+                alt="Learner outcomes through our awesome platform"
+                class="feature__img--vertical feature__img--lower"
+              />
+              <img
+                src="./Assets/Images/Features/feature-2.jpg"
+                alt="Learner outcomes through our awesome platform"
+                class="feature__img--vertical"
+              />
+            </div>
+            <section class="feature__content-block">
+              <h2 class="feature__heading heading">
+                Learner outcomes through our awesome platform
+              </h2>
+              <p class="desc feature__desc">
+                87% of people learning for professional development report
+                career benefits like getting a promotion, a raise, or starting a
+                new career.
+              </p>
+              <p class="desc feature__source">Lesson Impact Report (2022)</p>
+              <a href="#!" class="btn feature__btn">Sign Up</a>
+            </section>
+          </div>
+          <div class="feature__row">
+            <section class="feature__content-block">
+              <h2 class="feature__heading heading">
+                Take the next step toward your personal and professional goals
+                with Lesson.
+              </h2>
+              <p class="desc feature__desc">
+                Take the next step toward. Join now to receive personalized and
+                more recommendations from the full Coursera catalog.
+              </p>
+              <a href="#!" class="btn feature__btn">Join Now</a>
+            </section>
+            <div class="feature__media-block">
+              <img
+                src="./Assets/Images/Features/feature-3.jpg"
+                alt=""
+                class="feature__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Blogs ==== -->
+      <section class="blog">
+        <div class="container">
+          <section class="blog__top">
+            <h2 class="heading blog__heading">Our blog</h2>
+            <p class="desc blog__desc">
+              Read our regular travel blog and know the latest update of tour
+              and travel
+            </p>
+          </section>
+          <!-- Blogs list -->
+          <ul class="blog__list">
+            <li class="blog__item">
+              <figure class="blog__image">
+                <img
+                  src="./Assets/Images/Blogs/blog-1.jpg"
+                  alt="How to become a pro web designer in 2022 and get remot job?"
+                  class="blog__thumb"
+                />
+              </figure>
+              <section class="blog__info">
+                <p class="blog__date">
+                  <span class="dot dot--active"></span>
+                  21 November 2021
+                </p>
+                <h3 class="blog__title">
+                  How to become a pro web designer in 2022 and get remot job?
+                </h3>
+                <a href="#!" class="btn blog__btn">Read More</a>
+              </section>
+            </li>
+            <li class="blog__item">
+              <figure class="blog__image">
+                <img
+                  src="./Assets/Images/Blogs/blog-2.jpg"
+                  alt="How to become a pro web designer in 2022 and get remot job?"
+                  class="blog__thumb"
+                />
+              </figure>
+              <section class="blog__info">
+                <p class="blog__date">
+                  <span class="dot dot--active"></span>
+                  21 November 2021
+                </p>
+                <h3 class="blog__title">
+                  How to become a pro web designer in 2022 and get remot job?
+                </h3>
+                <a href="#!" class="btn blog__btn">Read More</a>
+              </section>
+            </li>
+            <li class="blog__item">
+              <figure class="blog__image">
+                <img
+                  src="./Assets/Images/Blogs/blog-3.jpg"
+                  alt="How to become a pro web designer in 2022 and get remot job?"
+                  class="blog__thumb"
+                />
+              </figure>
+              <section class="blog__info">
+                <p class="blog__date">
+                  <span class="dot dot--active"></span>
+                  21 November 2021
+                </p>
+                <h3 class="blog__title">
+                  How to become a pro web designer in 2022 and get remot job?
+                </h3>
+                <a href="#!" class="btn blog__btn">Read More</a>
+              </section>
+            </li>
+          </ul>
+          <div class="blog__dots">
+            <span class="dot dot--active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__media-block">
+            <!-- === LOGO === -->
+            <div class="logo footer__logo">
+              <a href="#" class="logo__text">
+                Lesson<span class="logo__dot">.</span>
+              </a>
+            </div>
+            <p class="desc footer__desc">
+              Need to help for your dream Career? trust us. With Lesson, study
+              becomes a lot easier with us.
+            </p>
+            <div class="footer__social-media">
+              <!-- Twitter -->
+              <a href="#!" class="footer__socia-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                  />
+                </svg>
+              </a>
+              <!-- Facebook -->
+              <a href="#!" class="footer__socia-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 320 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                  />
+                </svg>
+              </a>
+              <!-- Linkedin -->
+              <a href="#!" class="footer__socia-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 448 512"
+                >
+                
+                  <path
+                  fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                  />
+                </svg>
+              </a>
+              <!-- instagram -->
+              <a href="#!" class="footer__socia-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer__info-block">
+            <!-- Column 1 -->
+            <div class="footer__info-column">
+              <h3 class="footer__title">Company</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#!" class="footer__link">About Us</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#!" class="footer__link">Features</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#!" class="footer__link">Our Pricing</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#!" class="footer__link">Latest News</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Column 2 -->
+            <div class="footer__info-column">
+              <h3 class="footer__title">Support</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#!" class="footer__link">FAQ’s</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#!" class="footer__link">Terms & Conditions</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#!" class="footer__link">Privacy Policy</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#!" class="footer__link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Column 3 -->
+            <div class="footer__info-column">
+              <h3 class="footer__title">Address</h3>
+              <p class="desc footer__desc">
+                <strong>Location:</strong> 27 Division St, New York, NY 10002,
+                USA
+              </p>
+              <p class="desc footer__desc">
+                <strong>Email:</strong> email@gmail.com
+              </p>
+              <p class="desc footer__desc">
+                <strong>Phone:</strong> + 000 1234 567 890
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="desc footer__desc footer__coppyright">
+          Copyright ©2022 webdesign.gdn All rights reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
